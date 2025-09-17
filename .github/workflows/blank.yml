@@ -1,7 +1,7 @@
+name: 大容量云编译
 on:
   workflow_dispatch:
 
 jobs:
   build-kernel:
-    name: 大容量云编译
     uses: ./.github/workflows/yun-kernel.yml
